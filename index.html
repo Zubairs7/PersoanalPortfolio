@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Zubairdevportfolio</title>
+        <script src="https://kit.fontawesome.com/d99dd4d755.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">M<span class="logzs">ZS</span></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#abt" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#ser" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">Mohammed Zubair</h1>
+                    <span class="home__skill anime-text">Full Stack Web Developer</span>
+                    
+                    <div>
+                        <a href="Resume (19).pdf" class="home__button anime-text">Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="blurimage.jpg" alt="">
+                </div>
+               
+
+            </div>
+        </main>
+        <!------------------------------------ About -------------->
+        <section id="abt" class="about-me">
+            <div class="profile-image">
+                <img src="./fface.jpg" alt="Your Image">
+            </div>
+            <div class="content">
+                <h1>About Me</h1>
+                <p>Aspiring computer science and engineering student with a strong foundation in web development and backend engineering. Experienced in building and designing user-centric applications and platforms. Skilled in various programming languages and technologies, 
+                    seeking to leverage my knowledge and experience through an internship opportunity.</p>
+                <div class="tabs">
+                    <button class="tab-button active" onclick="showTab('skills')">Skills</button>
+                    <button class="tab-button" onclick="showTab('experience')">Experience</button>
+                    <button class="tab-button" onclick="showTab('education')">Education</button>
+                </div>
+                <div id="skills" class="tab-content active">
+                    <ul>
+                        <li><span>Programming languages</span><br>Python ,C , C++ ,HTML ,CSS ,JavaScript ,ReactJS ,MySQL</li>
+                        <li><span>Web Development</span><br>UI/UX design ,Bootstrap ,Rest APIs ,Wireframing, Figma </li>
+                        <li><span>Tools</span><br>Git ,Github ,Postman ,Selenium</li>
+                    </ul>
+                </div>
+                <div id="experience" class="tab-content">
+                    <ul>
+                        <li><span>Acenture Nordics Developer job simulation </span><br>Established a new benchmark for quality code deployment, reducing error by 40% by enforcing rigorous code review processes and comprehensive testing protocols</li>
+                        <li><span>Back-end Engineering virtual Experience Program</span><br>Accquired practical skills in database management and API development ,resulting in 35% improvement in coding efficiency and a 20% reduction in debugging time</li>
+                        
+                    </ul>
+                </div>
+                <div id="education" class="tab-content">
+                    <ul>
+                        <li><span>Expected Graduation(May 2026)</span><br>Bachelor of Engineering in Computer Science </li>
+                        <li><span>2020-2022</span><br>Higher Secondary Education(11th & 12th)</li>
+                        <li><span>2020</span><br>Secondary Education</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------ services -------------->
+
+        <div id="ser" class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I focus on building responsive, user-friendly websites using technologies like HTML, CSS, and JavaScript. With experience in frameworks such as Bootstrap and Node.js, 
+                            I offer full-stack development and API integration to enhance functionality and performance..</p>
+                </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX design</h2>
+                        <p>I emphasize creating user-centered designs through research, wireframing, and prototyping. My expertise in interaction design and usability testing ensures seamless and intuitive interfaces. I utilize tools like Adobe XD, Sketch, and Figma to bring concepts to life effectively.
+
+                        </p>
+                    
+                    </div>
+                    <div>
+                         <i class="fa-brands fa-figma"></i>
+                        <h2>Figma</h2>
+                        <p>Specialized in high-fidelity prototyping, component creation, and building design systems. I work closely with developers to ensure smooth collaboration, ensuring that designs are implemented with precision and consistency.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!------------------------------------ portfolio -------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="web.jpg" alt="">
+                        <div class="layer">
+                            <h3>Mental Health Support Platform</h3>
+                            <p>A web app to provide mental health support with features like mediation guides, stress-relief exercises and online counselling</p>
+                            <a href="https://zubairs7.github.io/WelcomePage/"><i class="fa-solid fa-code"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="figma.png" alt="">
+                        <div class="layer">
+                            <h3>Social media app</h3>
+                            <p>The figma design for virtual reality headset tailored for desktop use, showcases a sleek, user-friendly device designed for gaming, education and more</p>
+                            <a href="https://www.figma.com/proto/ZppVQYJulszkYVMMP8Iz0I/Untitled?node-id=0-1&t=qKMYCtXPNId9dFHv-1"><i class="fa-brands fa-figma"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="chatbot.jpg" alt="">
+                        <div class="layer">
+                            <h3>AI Chat-bot for Academic Support</h3>
+                            <p>An AI Chat-bot at college that assisted more than 100 students in obtaining notes on any topic without the need to search through PDFs. </p>
+                            <a href="https://mediafiles.botpress.cloud/da88d479-01e4-41cc-87f0-11b99b7825c6/webchat/bot.html"><i class="fa-brands fa-bots"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+                <!-- contact------------------------ -->
+
+             <div id="contact">
+                    <div class="container">
+                      <div class="row">
+                        <!-- Left Section -->
+                        <div class="contact-left">
+                          <h1 class="sub-title">Contact Me</h1>
+                          <p>mohammedzubairsanadi@gmail.com</p>
+                          <p><!-- icon -->8867868277</p>
+                          <div class="social-icon">
+                            <a href="https://www.instagram.com/zubairsanadi?igsh=cTcyaXdwYm0zaXBq"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/mohammed-zubair-sanadi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Zubairs7"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://wa.me/qr/5L5GFFCJ5GG6N1"><i class="fa-brands fa-whatsapp"></i></a>
+                          </div>
+                        </div>
+                        <!-- Right Section -->
+                        <div class="contact-right">
+                          <form id="contactForm" name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required />
+                            <input type="email" name="Email" placeholder="Your Email" required />
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2 submit-btn">submit</button>
+                        
+                            <p id="messageDisplay" class="message-display"></p>
+        
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Copyright Section -->
+<footer class="footer">
+    <p>&copy; 2024 Mohammed Zubair. All rights reserved.</p>
+</footer>
+
+       
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby-BeZNmei_OPm98v4L3Q9aMlWtwlO2Ae6aOp4x9QzNzgpGGo71N6CS1mXZQa3mfBmkbA/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
